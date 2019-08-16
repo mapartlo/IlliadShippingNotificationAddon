@@ -53,6 +53,9 @@ function CheckShippedItems()
     if Settings.SendEmail == true then
       LogDebug("Sending notification email for Transaction "..tn);
       ExecuteCommand("SendTransactionNotification", {tn, Settings.EmailName});
+      ExecuteCommand("Route", {tn, "NotifiedShipped"}); 
+      ExecuteCommand("Route", {tn, "Request Sent"}); 
+    end
     end
   end
   connection:Dispose();
