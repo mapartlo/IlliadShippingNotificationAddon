@@ -1,7 +1,7 @@
 <Configuration>
   <Name>Shipping Notification Addon</Name>
   <Author>Austin Smith, University of Maryland Libraries</Author>
-  <Version>1.0</Version>
+  <Version>1.1</Version>
   <Active>true</Active>
   <Type>Server</Type>
   <Description>Sends notifications for loans in Request Sent which have a due date assigned.</Description>
